@@ -1,0 +1,536 @@
+{
+  "items": [
+    {
+      "name": "Milk Carton",
+      "category": "Dairy",
+      "type": "Dairy",
+      "price": "0.59",
+      "id": 21
+    },
+    {
+      "id": 3,
+      "name": "Apples Kg",
+      "price": 1.49,
+      "category": "Produce",
+      "type": "Fruits"
+    },
+    {
+      "id": 5,
+      "name": "T-Bone Beef 0.4kg",
+      "price": 5.79,
+      "category": "Meat & Seafood",
+      "type": "Beef"
+    },
+    {
+      "id": 6,
+      "name": "Salmon fillets 0.5kg",
+      "price": 6.79,
+      "category": "Meat & Seafood",
+      "type": "Fish"
+    },
+    {
+      "id": 7,
+      "name": "Crab Delights 0.3kg",
+      "price": 4.49,
+      "category": "Meat & Seafood",
+      "type": "Seafood"
+    },
+    {
+      "id": 8,
+      "name": "Black Olives 0.25Kg",
+      "price": 1.39,
+      "category": "Pantry",
+      "type": "Pickles & Olives"
+    },
+    {
+      "id": 9,
+      "name": "Dill Pickles 0.5Kg",
+      "price": 2.39,
+      "category": "Pantry",
+      "type": "Pickles & Olives"
+    },
+    {
+      "name": "Carrots Kg",
+      "category": "Produce",
+      "type": "Vegetables",
+      "price": "0.69",
+      "id": 22
+    },
+    {
+      "name": "Cheese",
+      "category": "Dairy",
+      "type": "Dairy",
+      "price": "1.99",
+      "id": 23
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "rui",
+      "email": "rui@email.com",
+      "role": "admin",
+      "password": "pass"
+    },
+    {
+      "id": 2,
+      "username": "rui.g",
+      "email": "rui.g@email.com",
+      "password": "pass",
+      "role": "customer"
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "username": "rui",
+      "createddate": "2022-05-23T20:17:42.634Z",
+      "cart": {
+        "itemsCount": 3,
+        "totalPrice": "3.37",
+        "items": [
+          {
+            "quantity": 2,
+            "total": 1.38,
+            "item": {
+              "name": "Carrots Kg",
+              "category": "Produce",
+              "type": "Vegetables",
+              "price": "0.69",
+              "id": 22
+            }
+          },
+          {
+            "quantity": 1,
+            "total": 1.99,
+            "item": {
+              "name": "Cheese",
+              "category": "Dairy",
+              "type": "Dairy",
+              "price": "1.99",
+              "id": 23
+            }
+          }
+        ]
+      }
+    },
+    {
+      "username": "rui",
+      "createddate": "2022-05-24T04:17:42.634Z",
+      "cart": {
+        "totalPrice": 24.5,
+        "itemsCount": 10,
+        "items": [
+          {
+            "item": {
+              "name": "Milk Carton",
+              "category": "Dairy",
+              "type": "Dairy",
+              "price": "0.59",
+              "id": 21
+            },
+            "quantity": 3,
+            "total": 1.77
+          },
+          {
+            "item": {
+              "id": 3,
+              "name": "Apples Kg",
+              "price": 1.49,
+              "category": "Produce",
+              "type": "Fruits"
+            },
+            "quantity": 1,
+            "total": 1.49
+          },
+          {
+            "item": {
+              "id": 7,
+              "name": "Crab Delights 0.3kg",
+              "price": 4.49,
+              "category": "Meat & Seafood",
+              "type": "Seafood"
+            },
+            "quantity": 1,
+            "total": 4.49
+          },
+          {
+            "item": {
+              "id": 9,
+              "name": "Dill Pickles 0.5Kg",
+              "price": 2.39,
+              "category": "Pantry",
+              "type": "Pickles & Olives"
+            },
+            "quantity": 1,
+            "total": 2.39
+          },
+          {
+            "item": {
+              "id": 8,
+              "name": "Black Olives 0.25Kg",
+              "price": 1.39,
+              "category": "Pantry",
+              "type": "Pickles & Olives"
+            },
+            "quantity": 2,
+            "total": 2.78
+          },
+          {
+            "item": {
+              "id": 5,
+              "name": "T-Bone Beef 0.4kg",
+              "price": 5.79,
+              "category": "Meat & Seafood",
+              "type": "Beef"
+            },
+            "quantity": 2,
+            "total": 11.58
+          }
+        ]
+      },
+      "id": 2
+    },
+    {
+      "username": "rui",
+      "createddate": "2022-05-24T09:27:43.561Z",
+      "cart": {
+        "totalPrice": 24.5,
+        "itemsCount": 10,
+        "items": [
+          {
+            "item": {
+              "name": "Milk Carton",
+              "category": "Dairy",
+              "type": "Dairy",
+              "price": "0.59",
+              "id": 21
+            },
+            "quantity": 3,
+            "total": 1.77
+          },
+          {
+            "item": {
+              "id": 3,
+              "name": "Apples Kg",
+              "price": 1.49,
+              "category": "Produce",
+              "type": "Fruits"
+            },
+            "quantity": 1,
+            "total": 1.49
+          },
+          {
+            "item": {
+              "id": 7,
+              "name": "Crab Delights 0.3kg",
+              "price": 4.49,
+              "category": "Meat & Seafood",
+              "type": "Seafood"
+            },
+            "quantity": 1,
+            "total": 4.49
+          },
+          {
+            "item": {
+              "id": 9,
+              "name": "Dill Pickles 0.5Kg",
+              "price": 2.39,
+              "category": "Pantry",
+              "type": "Pickles & Olives"
+            },
+            "quantity": 1,
+            "total": 2.39
+          },
+          {
+            "item": {
+              "id": 8,
+              "name": "Black Olives 0.25Kg",
+              "price": 1.39,
+              "category": "Pantry",
+              "type": "Pickles & Olives"
+            },
+            "quantity": 2,
+            "total": 2.78
+          },
+          {
+            "item": {
+              "id": 5,
+              "name": "T-Bone Beef 0.4kg",
+              "price": 5.79,
+              "category": "Meat & Seafood",
+              "type": "Beef"
+            },
+            "quantity": 2,
+            "total": 11.58
+          }
+        ]
+      },
+      "id": 3
+    },
+    {
+      "username": "rui",
+      "createddate": "2022-05-24T09:28:14.866Z",
+      "cart": {
+        "totalPrice": 24.5,
+        "itemsCount": 10,
+        "items": [
+          {
+            "item": {
+              "name": "Milk Carton",
+              "category": "Dairy",
+              "type": "Dairy",
+              "price": "0.59",
+              "id": 21
+            },
+            "quantity": 3,
+            "total": 1.77
+          },
+          {
+            "item": {
+              "id": 3,
+              "name": "Apples Kg",
+              "price": 1.49,
+              "category": "Produce",
+              "type": "Fruits"
+            },
+            "quantity": 1,
+            "total": 1.49
+          },
+          {
+            "item": {
+              "id": 7,
+              "name": "Crab Delights 0.3kg",
+              "price": 4.49,
+              "category": "Meat & Seafood",
+              "type": "Seafood"
+            },
+            "quantity": 1,
+            "total": 4.49
+          },
+          {
+            "item": {
+              "id": 9,
+              "name": "Dill Pickles 0.5Kg",
+              "price": 2.39,
+              "category": "Pantry",
+              "type": "Pickles & Olives"
+            },
+            "quantity": 1,
+            "total": 2.39
+          },
+          {
+            "item": {
+              "id": 8,
+              "name": "Black Olives 0.25Kg",
+              "price": 1.39,
+              "category": "Pantry",
+              "type": "Pickles & Olives"
+            },
+            "quantity": 2,
+            "total": 2.78
+          },
+          {
+            "item": {
+              "id": 5,
+              "name": "T-Bone Beef 0.4kg",
+              "price": 5.79,
+              "category": "Meat & Seafood",
+              "type": "Beef"
+            },
+            "quantity": 2,
+            "total": 11.58
+          }
+        ]
+      },
+      "id": 4
+    },
+    {
+      "username": "rui",
+      "createddate": "2022-05-24T11:25:46.948Z",
+      "cart": {
+        "totalPrice": 9.15,
+        "itemsCount": 5,
+        "items": [
+          {
+            "item": {
+              "name": "Milk Carton",
+              "category": "Dairy",
+              "type": "Dairy",
+              "price": "0.59",
+              "id": 21
+            },
+            "quantity": 4,
+            "total": 2.36
+          },
+          {
+            "item": {
+              "id": 6,
+              "name": "Salmon fillets 0.5kg",
+              "price": 6.79,
+              "category": "Meat & Seafood",
+              "type": "Fish"
+            },
+            "quantity": 1,
+            "total": 6.79
+          }
+        ]
+      },
+      "id": 5
+    },
+    {
+      "username": "rui",
+      "createddate": "2022-05-24T13:45:42.998Z",
+      "cart": {
+        "totalPrice": 9.459999999999999,
+        "itemsCount": 4,
+        "items": [
+          {
+            "item": {
+              "name": "Milk Carton",
+              "category": "Dairy",
+              "type": "Dairy",
+              "price": "0.59",
+              "id": 21
+            },
+            "quantity": 1,
+            "total": 0.59
+          },
+          {
+            "item": {
+              "id": 6,
+              "name": "Salmon fillets 0.5kg",
+              "price": 6.79,
+              "category": "Meat & Seafood",
+              "type": "Fish"
+            },
+            "quantity": 1,
+            "total": 6.79
+          },
+          {
+            "item": {
+              "id": 8,
+              "name": "Black Olives 0.25Kg",
+              "price": 1.39,
+              "category": "Pantry",
+              "type": "Pickles & Olives"
+            },
+            "quantity": 1,
+            "total": 1.39
+          },
+          {
+            "item": {
+              "name": "Carrots Kg",
+              "category": "Produce",
+              "type": "Vegetables",
+              "price": "0.69",
+              "id": 22
+            },
+            "quantity": 1,
+            "total": 0.69
+          }
+        ]
+      },
+      "id": 6
+    },
+    {
+      "username": "rui.g",
+      "createddate": "2022-05-24T21:12:19.318Z",
+      "cart": {
+        "totalPrice": 24.72,
+        "itemsCount": 8,
+        "items": [
+          {
+            "item": {
+              "name": "Milk Carton",
+              "category": "Dairy",
+              "type": "Dairy",
+              "price": "0.59",
+              "id": 21
+            },
+            "quantity": 3,
+            "total": 1.77
+          },
+          {
+            "item": {
+              "id": 7,
+              "name": "Crab Delights 0.3kg",
+              "price": 4.49,
+              "category": "Meat & Seafood",
+              "type": "Seafood"
+            },
+            "quantity": 2,
+            "total": 8.98
+          },
+          {
+            "item": {
+              "id": 9,
+              "name": "Dill Pickles 0.5Kg",
+              "price": 2.39,
+              "category": "Pantry",
+              "type": "Pickles & Olives"
+            },
+            "quantity": 1,
+            "total": 2.39
+          },
+          {
+            "item": {
+              "id": 5,
+              "name": "T-Bone Beef 0.4kg",
+              "price": 5.79,
+              "category": "Meat & Seafood",
+              "type": "Beef"
+            },
+            "quantity": 2,
+            "total": 11.58
+          }
+        ]
+      },
+      "id": 7
+    },
+    {
+      "username": "rui.g",
+      "createddate": "2022-05-24T21:14:00.598Z",
+      "cart": {
+        "totalPrice": 4.959999999999999,
+        "itemsCount": 4,
+        "items": [
+          {
+            "item": {
+              "id": 8,
+              "name": "Black Olives 0.25Kg",
+              "price": 1.39,
+              "category": "Pantry",
+              "type": "Pickles & Olives"
+            },
+            "quantity": 2,
+            "total": 2.78
+          },
+          {
+            "item": {
+              "id": 3,
+              "name": "Apples Kg",
+              "price": 1.49,
+              "category": "Produce",
+              "type": "Fruits"
+            },
+            "quantity": 1,
+            "total": 1.49
+          },
+          {
+            "item": {
+              "name": "Carrots Kg",
+              "category": "Produce",
+              "type": "Vegetables",
+              "price": "0.69",
+              "id": 22
+            },
+            "quantity": 1,
+            "total": 0.69
+          }
+        ]
+      },
+      "id": 8
+    }
+  ]
+}
